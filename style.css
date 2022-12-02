@@ -1,0 +1,93 @@
+
+body{    
+    background: linear-gradient(to bottom, #68EACC 0%, #497BE8);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.List{ 
+    margin: 140px auto ;
+    max-width: 400px;
+    width: 100%;
+    background: white;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.List .input{
+    display: flex;
+    font-size: 45px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.input input{
+    width: 85%;
+    height: 10;
+    border: 1px solid #ccc;
+    font-size: 17px;
+    border-radius: 3px;
+    padding-left: 15px;
+    
+}
+.input button{
+    width: 46px;
+    height: 46px;
+    border: none;
+    outline: none;
+    background: #8E49E8;
+    color: #fff;
+    font-size: 22px;
+    cursor:pointer;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+
+ .footer{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.footer button {    
+    border: none;
+    outline: none;
+    background: #8E49E8;
+    color: #fff;
+    font-size: 16px;
+    cursor:pointer;
+    border-radius: 3px;
+    padding: 6px 10px;   
+}
+.button_supprimer{
+    width: 46px;
+    height: 46px;
+    border: none;
+    outline: none;   
+    color: #fff;
+    font-size: 22px;
+    cursor:pointer;
+    border-radius: 3px;
+    margin-left: 355px;
+}
+.button_supprimer:hover {
+    right: 0px;
+    background-color: #e74c3c;
+}
+
+.List .affichage{
+    max-height: 250px;
+    overflow-y: auto;  
+}
+
+
+
+
+ 
+    
+
+    
+
+
+
