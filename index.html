@@ -8,27 +8,24 @@
         <link rel="stylesheet" type="text/css" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css>
     </head>
     <body>
-        <div class="cadre">   
+        
+    </div> 
             <div class="List">      
                 <h1>Todo App</h1>                  
                     <div >
                         <div class="input">
-                            <input type="text"  placeholder="Add your new todo" id="addlist" />                          
-                            <button type="button"  id="addtbutton"><i class='fas fa-plus'></i></button>
+                            <input type="text"  placeholder="Add your new todo" id="data_name" />                          
+                            <button type="button"  id="valider"><i class='fas fa-plus'></i></button>
                         </div>                                                 
-                    </div>                      
-                   
+                    </div>                                    
                     <div>
-                        <div class="affichage"  id="addedtasklist">
-                            
+                        <div
+                            class="affichage"  id="response">                        
                         </div>                      
                     </div>
-
                     <div class="footer">
                         <span>You have pending tasks</span>
-                        <button type="button" id="deleteall" >
-                            Clear All
-                        </button>
+                        <button id="clear">clear</button>
                     </div>           
             </div> 
         </div>     
